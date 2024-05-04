@@ -1,0 +1,353 @@
+/* INDEX */
+body {
+			font-family: "quasimoda", "monaco", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 140%;
+			line-height: 150%;
+			margin-top: 5%;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-bottom: 10%;
+			color: #97A5B0;
+			background-color: #0B1623;
+			}	
+.dots {
+	padding-left: 30px;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: "quasimoda", "monaco", sans-serif;
+}
+
+.logo {
+		margin-top: -70px;
+		margin-left: 5%;
+}
+.logobig {
+		margin-top: -50px;
+		margin-left: 5%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+/* sidebar nav */
+#sidebar a {
+			color: #97A5B0;
+				padding-top: 50px;
+		}
+#sidebar a:hover {
+			color: #669bbc;
+		padding-top: 50px;
+		}
+
+.list-group-item {
+			border: none;
+			background-color: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT */
+
+h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	line-height: 100%;
+	color: #3A3A3C;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+h2 {
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	line-height: 100%;
+	color: #669bbc;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	}
+p {
+text-align: center;
+	font-size: 80%;
+	line-height: 100%;
+}
+.flip {
+	border-radius: 10%;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+	margin-bottom: 200px;
+margin-top: 75px;
+	background-color: transparent;
+	text-align: center;
+  width: 300px;
+  height: 200px;
+  border: 0px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: #3A3A3C;
+}
+
+/* Style the back side */
+.flip-card-back {
+	background-color: #D7EFFF;
+  color: #3A3A3C;
+  transform: rotateY(180deg);
+border-radius: 10%;
+width:300px;
+height:400px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES */
+h4 {
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	line-height: 100%;
+	color: #669bbc;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	}
+.service {
+	border-radius: 10%;
+}
+.serviceparagraph {
+	text-align: left;
+	font-size: 80%;
+	line-height: 100%;
+	padding-left: 10px;
+	padding-right: 100px;
+}
+h5 {
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	line-height: 100%;
+	color: #97A5B0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	}
+.servicespacing {
+		padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT US */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 10%; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #97A5B0;
+  color: #0B1623;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #669bbc;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5%;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+.contactform {
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Copywriting */
+.stickyimage {
+	padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+  text-align: Right;
+  padding-right: 20px;
+  background-color: transparent;
+	font-size: 1em;
+	text-transform: uppercase;
+	line-height: 100%;
+	padding-bottom: 10px;	
+	padding-top: 100px;
+
+}
+a {
+text-decoration: none;  
+	color: #97A5B0;	
+
+}
+
+a:hover {
+      color: #669bbc !important; 
+}
